@@ -23,8 +23,10 @@
           "ref": "aspect_sentiment_categorised",
           "deps": [
             {
+              "out": "Cat_analysis_by_companies",
               "idim": "company",
-              "func": "all_available",
+              "odim": "company",
+              "func": "equals",
               "params": {}
             }
           ]
@@ -47,11 +49,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586535747517
+    "lastModifiedOn": 1586536027196
   },
   "creationTag": {
     "versionNumber": 0,
