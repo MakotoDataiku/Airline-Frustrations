@@ -23,18 +23,9 @@
           "ref": "aspect_sentiment_categorised",
           "deps": [
             {
-              "out": "Cat_analysis_by_companies",
-              "idim": "company",
-              "odim": "company",
-              "func": "equals",
-              "params": {
-                "fromMode": "RELATIVE_OFFSET",
-                "fromGranularity": "DAY",
-                "fromOffset": "0",
-                "toGranularity": "DAY",
-                "toOffset": "0",
-                "code": "def get_dependencies(target_partition_id):\n    return [target_partition_id]"
-              }
+              "idim": "product_id",
+              "func": "all_available",
+              "params": {}
             }
           ]
         }
@@ -56,11 +47,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586536179274
+    "lastModifiedOn": 1586537252418
   },
   "creationTag": {
     "versionNumber": 0,
