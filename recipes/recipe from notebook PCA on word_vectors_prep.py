@@ -25,7 +25,7 @@ for company in companies:
     Y = df_sub[columns_to_drop]
 
     ss = StandardScaler().fit(X)
-    print("ok for now")
+
     X_std = ss.transform(X)
     pca = PCA(n_components=2)
     result = pca.fit_transform(X_std)
