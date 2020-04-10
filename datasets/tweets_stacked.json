@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586534455397
+    "lastModifiedOn": 1586534588642
   },
   "creationTag": {
     "versionNumber": 0,
@@ -92,7 +92,7 @@
       },
       {
         "name": "has_media",
-        "type": "string"
+        "type": "boolean"
       },
       {
         "name": "hashtags",
@@ -104,15 +104,15 @@
       },
       {
         "name": "is_replied",
-        "type": "string"
+        "type": "boolean"
       },
       {
         "name": "is_reply_to",
-        "type": "string"
+        "type": "boolean"
       },
       {
         "name": "likes",
-        "type": "string"
+        "type": "bigint"
       },
       {
         "name": "links",
@@ -120,11 +120,11 @@
       },
       {
         "name": "parent_tweet_id",
-        "type": "string"
+        "type": "bigint"
       },
       {
         "name": "replies",
-        "type": "string"
+        "type": "bigint"
       },
       {
         "name": "reply_to_users",
@@ -132,7 +132,7 @@
       },
       {
         "name": "retweets",
-        "type": "string"
+        "type": "bigint"
       },
       {
         "name": "screen_name",
@@ -156,11 +156,11 @@
       },
       {
         "name": "timestamp_epochs",
-        "type": "string"
+        "type": "bigint"
       },
       {
         "name": "tweet_id",
-        "type": "string"
+        "type": "bigint"
       },
       {
         "name": "tweet_url",
@@ -168,7 +168,7 @@
       },
       {
         "name": "user_id",
-        "type": "string"
+        "type": "bigint"
       },
       {
         "name": "username",
