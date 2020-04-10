@@ -21,7 +21,13 @@
       "items": [
         {
           "ref": "aspect_sentiment_categorised",
-          "deps": []
+          "deps": [
+            {
+              "idim": "company",
+              "func": "all_available",
+              "params": {}
+            }
+          ]
         }
       ]
     }
@@ -41,11 +47,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586505135251
+    "lastModifiedOn": 1586535747517
   },
   "creationTag": {
     "versionNumber": 0,
