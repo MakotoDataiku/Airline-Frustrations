@@ -62,12 +62,12 @@
   "virtualInputs": [
     {
       "preFilter": {},
-      "originLabel": "tweets",
+      "originLabel": "tweets_new",
       "index": 0
     },
     {
       "preFilter": {},
-      "originLabel": "tweets_new",
+      "originLabel": "tweets_1",
       "index": 1
     }
   ],
