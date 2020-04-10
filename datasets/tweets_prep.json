@@ -64,11 +64,11 @@
     ]
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586534697385
+    "lastModifiedOn": 1586534722419
   },
   "creationTag": {
     "versionNumber": 0,
@@ -104,17 +104,11 @@
       },
       {
         "name": "hashtags",
-        "type": "array",
-        "arrayContent": {
-          "type": "string"
-        }
+        "type": "string"
       },
       {
         "name": "img_urls",
-        "type": "array",
-        "arrayContent": {
-          "type": "string"
-        }
+        "type": "string"
       },
       {
         "name": "is_replied",
@@ -142,10 +136,7 @@
       },
       {
         "name": "reply_to_users",
-        "type": "array",
-        "arrayContent": {
-          "type": "string"
-        }
+        "type": "string"
       },
       {
         "name": "retweets",
@@ -166,6 +157,10 @@
       {
         "name": "timestamp",
         "type": "string"
+      },
+      {
+        "name": "timestamp_parsed",
+        "type": "date"
       },
       {
         "name": "timestamp_epochs",
