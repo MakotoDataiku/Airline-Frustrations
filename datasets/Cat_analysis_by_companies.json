@@ -64,11 +64,11 @@
     ]
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586536001870
+    "lastModifiedOn": 1586536191161
   },
   "creationTag": {
     "versionNumber": 0,
@@ -109,9 +109,13 @@
       {
         "name": "weighted_ave_tb",
         "type": "double"
+      },
+      {
+        "name": "company",
+        "type": "string"
       }
     ],
-    "userModified": true
+    "userModified": false
   },
   "metrics": {
     "probes": [
