@@ -24,7 +24,7 @@
           "deps": [
             {
               "idim": "company",
-              "func": "all_available",
+              "func": "equals",
               "params": {}
             }
           ]
@@ -47,11 +47,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 30,
+    "versionNumber": 31,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586535424581
+    "lastModifiedOn": 1586535511820
   },
   "creationTag": {
     "versionNumber": 0,
