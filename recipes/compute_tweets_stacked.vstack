@@ -17,13 +17,13 @@
     "text",
     "text_html",
     "timestamp",
+    "timestamp_parsed",
     "timestamp_epochs",
     "tweet_id",
     "tweet_url",
     "user_id",
     "username",
-    "video_url",
-    "timestamp_parsed"
+    "video_url"
   ],
   "originColumnName": "original_dataset",
   "engineParams": {
@@ -63,12 +63,12 @@
   "virtualInputs": [
     {
       "preFilter": {},
-      "originLabel": "tweets_1_copy",
+      "originLabel": "tweets_new_prepared",
       "index": 0
     },
     {
       "preFilter": {},
-      "originLabel": "tweets_new_prepared",
+      "originLabel": "tweets",
       "index": 1
     }
   ],
@@ -141,6 +141,10 @@
             "type": "string"
           },
           {
+            "name": "timestamp_parsed",
+            "type": "date"
+          },
+          {
             "name": "timestamp_epochs",
             "type": "string"
           },
@@ -163,10 +167,6 @@
           {
             "name": "video_url",
             "type": "string"
-          },
-          {
-            "name": "timestamp_parsed",
-            "type": "date"
           }
         ],
         "userModified": false

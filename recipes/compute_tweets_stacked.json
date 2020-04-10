@@ -11,30 +11,34 @@
     "main": {
       "items": [
         {
-          "ref": "tweets_1_copy",
+          "ref": "tweets_new_prepared",
           "deps": [
             {
-              "out": "tweets_stacked",
               "idim": "company",
-              "func": "values",
-              "params": {},
-              "values": [
-                "Air France"
-              ]
+              "func": "equals",
+              "params": {
+                "fromMode": "RELATIVE_OFFSET",
+                "fromGranularity": "DAY",
+                "fromOffset": "0",
+                "toGranularity": "DAY",
+                "toOffset": "0"
+              }
             }
           ]
         },
         {
-          "ref": "tweets_new_prepared",
+          "ref": "tweets",
           "deps": [
             {
-              "out": "tweets_stacked",
               "idim": "company",
-              "func": "values",
-              "params": {},
-              "values": [
-                "Air France"
-              ]
+              "func": "equals",
+              "params": {
+                "fromMode": "RELATIVE_OFFSET",
+                "fromGranularity": "DAY",
+                "fromOffset": "0",
+                "toGranularity": "DAY",
+                "toOffset": "0"
+              }
             }
           ]
         }
@@ -52,11 +56,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586534026721
+    "lastModifiedOn": 1586534455447
   },
   "creationTag": {
     "versionNumber": 0,
