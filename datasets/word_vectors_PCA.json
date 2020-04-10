@@ -64,11 +64,11 @@
     ]
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586551097465
+    "lastModifiedOn": 1586552231202
   },
   "creationTag": {
     "versionNumber": 0,
@@ -109,6 +109,10 @@
       {
         "name": "count",
         "type": "bigint"
+      },
+      {
+        "name": "cluster_labels",
+        "type": "string"
       },
       {
         "name": "PC_1",
