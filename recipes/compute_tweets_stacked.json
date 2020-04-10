@@ -14,15 +14,10 @@
           "ref": "tweets_new_prepared",
           "deps": [
             {
+              "out": "tweets_stacked",
               "idim": "company",
-              "func": "equals",
-              "params": {
-                "fromMode": "RELATIVE_OFFSET",
-                "fromGranularity": "DAY",
-                "fromOffset": "0",
-                "toGranularity": "DAY",
-                "toOffset": "0"
-              }
+              "func": "values",
+              "params": {}
             }
           ]
         },
@@ -30,15 +25,10 @@
           "ref": "tweets",
           "deps": [
             {
+              "out": "tweets_stacked",
               "idim": "company",
-              "func": "equals",
-              "params": {
-                "fromMode": "RELATIVE_OFFSET",
-                "fromGranularity": "DAY",
-                "fromOffset": "0",
-                "toGranularity": "DAY",
-                "toOffset": "0"
-              }
+              "func": "values",
+              "params": {}
             }
           ]
         }
@@ -56,11 +46,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 15,
+    "versionNumber": 16,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586534455447
+    "lastModifiedOn": 1586534465568
   },
   "creationTag": {
     "versionNumber": 0,
