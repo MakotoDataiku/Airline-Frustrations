@@ -1,0 +1,1378 @@
+{
+  "type": "PostgreSQL",
+  "managed": true,
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": [
+      {
+        "name": "product_id",
+        "type": "value"
+      }
+    ]
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1586551984612
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1586551984612
+  },
+  "tags": [],
+  "params": {
+    "writeWithCopyBadDataBehavior": "NOVERIFY_ERROR",
+    "connection": "PostgreSQL",
+    "notReadyIfEmpty": false,
+    "mode": "table",
+    "partitioningType": "custom",
+    "normalizeDoubles": true,
+    "table": "${projectKey}_word_vectors_prep_clustered",
+    "tableCreationMode": "auto",
+    "writeInsertBatchSize": 10000,
+    "writeJDBCBadDataBehavior": "DISCARD_ROW",
+    "readColsWithUnknownTzAsDates": false,
+    "readSQLDateColsAsDSSDates": true
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "product_id",
+        "type": "string"
+      },
+      {
+        "name": "noun_lemmatized",
+        "type": "string"
+      },
+      {
+        "name": "k_means_clusters",
+        "type": "bigint"
+      },
+      {
+        "name": "count",
+        "type": "bigint"
+      },
+      {
+        "name": "component_0",
+        "type": "double"
+      },
+      {
+        "name": "component_1",
+        "type": "double"
+      },
+      {
+        "name": "component_2",
+        "type": "double"
+      },
+      {
+        "name": "component_3",
+        "type": "double"
+      },
+      {
+        "name": "component_4",
+        "type": "double"
+      },
+      {
+        "name": "component_5",
+        "type": "double"
+      },
+      {
+        "name": "component_6",
+        "type": "double"
+      },
+      {
+        "name": "component_7",
+        "type": "double"
+      },
+      {
+        "name": "component_8",
+        "type": "double"
+      },
+      {
+        "name": "component_9",
+        "type": "double"
+      },
+      {
+        "name": "component_10",
+        "type": "double"
+      },
+      {
+        "name": "component_11",
+        "type": "double"
+      },
+      {
+        "name": "component_12",
+        "type": "double"
+      },
+      {
+        "name": "component_13",
+        "type": "double"
+      },
+      {
+        "name": "component_14",
+        "type": "double"
+      },
+      {
+        "name": "component_15",
+        "type": "double"
+      },
+      {
+        "name": "component_16",
+        "type": "double"
+      },
+      {
+        "name": "component_17",
+        "type": "double"
+      },
+      {
+        "name": "component_18",
+        "type": "double"
+      },
+      {
+        "name": "component_19",
+        "type": "double"
+      },
+      {
+        "name": "component_20",
+        "type": "double"
+      },
+      {
+        "name": "component_21",
+        "type": "double"
+      },
+      {
+        "name": "component_22",
+        "type": "double"
+      },
+      {
+        "name": "component_23",
+        "type": "double"
+      },
+      {
+        "name": "component_24",
+        "type": "double"
+      },
+      {
+        "name": "component_25",
+        "type": "double"
+      },
+      {
+        "name": "component_26",
+        "type": "double"
+      },
+      {
+        "name": "component_27",
+        "type": "double"
+      },
+      {
+        "name": "component_28",
+        "type": "double"
+      },
+      {
+        "name": "component_29",
+        "type": "double"
+      },
+      {
+        "name": "component_30",
+        "type": "double"
+      },
+      {
+        "name": "component_31",
+        "type": "double"
+      },
+      {
+        "name": "component_32",
+        "type": "double"
+      },
+      {
+        "name": "component_33",
+        "type": "double"
+      },
+      {
+        "name": "component_34",
+        "type": "double"
+      },
+      {
+        "name": "component_35",
+        "type": "double"
+      },
+      {
+        "name": "component_36",
+        "type": "double"
+      },
+      {
+        "name": "component_37",
+        "type": "double"
+      },
+      {
+        "name": "component_38",
+        "type": "double"
+      },
+      {
+        "name": "component_39",
+        "type": "double"
+      },
+      {
+        "name": "component_40",
+        "type": "double"
+      },
+      {
+        "name": "component_41",
+        "type": "double"
+      },
+      {
+        "name": "component_42",
+        "type": "double"
+      },
+      {
+        "name": "component_43",
+        "type": "double"
+      },
+      {
+        "name": "component_44",
+        "type": "double"
+      },
+      {
+        "name": "component_45",
+        "type": "double"
+      },
+      {
+        "name": "component_46",
+        "type": "double"
+      },
+      {
+        "name": "component_47",
+        "type": "double"
+      },
+      {
+        "name": "component_48",
+        "type": "double"
+      },
+      {
+        "name": "component_49",
+        "type": "double"
+      },
+      {
+        "name": "component_50",
+        "type": "double"
+      },
+      {
+        "name": "component_51",
+        "type": "double"
+      },
+      {
+        "name": "component_52",
+        "type": "double"
+      },
+      {
+        "name": "component_53",
+        "type": "double"
+      },
+      {
+        "name": "component_54",
+        "type": "double"
+      },
+      {
+        "name": "component_55",
+        "type": "double"
+      },
+      {
+        "name": "component_56",
+        "type": "double"
+      },
+      {
+        "name": "component_57",
+        "type": "double"
+      },
+      {
+        "name": "component_58",
+        "type": "double"
+      },
+      {
+        "name": "component_59",
+        "type": "double"
+      },
+      {
+        "name": "component_60",
+        "type": "double"
+      },
+      {
+        "name": "component_61",
+        "type": "double"
+      },
+      {
+        "name": "component_62",
+        "type": "double"
+      },
+      {
+        "name": "component_63",
+        "type": "double"
+      },
+      {
+        "name": "component_64",
+        "type": "double"
+      },
+      {
+        "name": "component_65",
+        "type": "double"
+      },
+      {
+        "name": "component_66",
+        "type": "double"
+      },
+      {
+        "name": "component_67",
+        "type": "double"
+      },
+      {
+        "name": "component_68",
+        "type": "double"
+      },
+      {
+        "name": "component_69",
+        "type": "double"
+      },
+      {
+        "name": "component_70",
+        "type": "double"
+      },
+      {
+        "name": "component_71",
+        "type": "double"
+      },
+      {
+        "name": "component_72",
+        "type": "double"
+      },
+      {
+        "name": "component_73",
+        "type": "double"
+      },
+      {
+        "name": "component_74",
+        "type": "double"
+      },
+      {
+        "name": "component_75",
+        "type": "double"
+      },
+      {
+        "name": "component_76",
+        "type": "double"
+      },
+      {
+        "name": "component_77",
+        "type": "double"
+      },
+      {
+        "name": "component_78",
+        "type": "double"
+      },
+      {
+        "name": "component_79",
+        "type": "double"
+      },
+      {
+        "name": "component_80",
+        "type": "double"
+      },
+      {
+        "name": "component_81",
+        "type": "double"
+      },
+      {
+        "name": "component_82",
+        "type": "double"
+      },
+      {
+        "name": "component_83",
+        "type": "double"
+      },
+      {
+        "name": "component_84",
+        "type": "double"
+      },
+      {
+        "name": "component_85",
+        "type": "double"
+      },
+      {
+        "name": "component_86",
+        "type": "double"
+      },
+      {
+        "name": "component_87",
+        "type": "double"
+      },
+      {
+        "name": "component_88",
+        "type": "double"
+      },
+      {
+        "name": "component_89",
+        "type": "double"
+      },
+      {
+        "name": "component_90",
+        "type": "double"
+      },
+      {
+        "name": "component_91",
+        "type": "double"
+      },
+      {
+        "name": "component_92",
+        "type": "double"
+      },
+      {
+        "name": "component_93",
+        "type": "double"
+      },
+      {
+        "name": "component_94",
+        "type": "double"
+      },
+      {
+        "name": "component_95",
+        "type": "double"
+      },
+      {
+        "name": "component_96",
+        "type": "double"
+      },
+      {
+        "name": "component_97",
+        "type": "double"
+      },
+      {
+        "name": "component_98",
+        "type": "double"
+      },
+      {
+        "name": "component_99",
+        "type": "double"
+      },
+      {
+        "name": "component_100",
+        "type": "double"
+      },
+      {
+        "name": "component_101",
+        "type": "double"
+      },
+      {
+        "name": "component_102",
+        "type": "double"
+      },
+      {
+        "name": "component_103",
+        "type": "double"
+      },
+      {
+        "name": "component_104",
+        "type": "double"
+      },
+      {
+        "name": "component_105",
+        "type": "double"
+      },
+      {
+        "name": "component_106",
+        "type": "double"
+      },
+      {
+        "name": "component_107",
+        "type": "double"
+      },
+      {
+        "name": "component_108",
+        "type": "double"
+      },
+      {
+        "name": "component_109",
+        "type": "double"
+      },
+      {
+        "name": "component_110",
+        "type": "double"
+      },
+      {
+        "name": "component_111",
+        "type": "double"
+      },
+      {
+        "name": "component_112",
+        "type": "double"
+      },
+      {
+        "name": "component_113",
+        "type": "double"
+      },
+      {
+        "name": "component_114",
+        "type": "double"
+      },
+      {
+        "name": "component_115",
+        "type": "double"
+      },
+      {
+        "name": "component_116",
+        "type": "double"
+      },
+      {
+        "name": "component_117",
+        "type": "double"
+      },
+      {
+        "name": "component_118",
+        "type": "double"
+      },
+      {
+        "name": "component_119",
+        "type": "double"
+      },
+      {
+        "name": "component_120",
+        "type": "double"
+      },
+      {
+        "name": "component_121",
+        "type": "double"
+      },
+      {
+        "name": "component_122",
+        "type": "double"
+      },
+      {
+        "name": "component_123",
+        "type": "double"
+      },
+      {
+        "name": "component_124",
+        "type": "double"
+      },
+      {
+        "name": "component_125",
+        "type": "double"
+      },
+      {
+        "name": "component_126",
+        "type": "double"
+      },
+      {
+        "name": "component_127",
+        "type": "double"
+      },
+      {
+        "name": "component_128",
+        "type": "double"
+      },
+      {
+        "name": "component_129",
+        "type": "double"
+      },
+      {
+        "name": "component_130",
+        "type": "double"
+      },
+      {
+        "name": "component_131",
+        "type": "double"
+      },
+      {
+        "name": "component_132",
+        "type": "double"
+      },
+      {
+        "name": "component_133",
+        "type": "double"
+      },
+      {
+        "name": "component_134",
+        "type": "double"
+      },
+      {
+        "name": "component_135",
+        "type": "double"
+      },
+      {
+        "name": "component_136",
+        "type": "double"
+      },
+      {
+        "name": "component_137",
+        "type": "double"
+      },
+      {
+        "name": "component_138",
+        "type": "double"
+      },
+      {
+        "name": "component_139",
+        "type": "double"
+      },
+      {
+        "name": "component_140",
+        "type": "double"
+      },
+      {
+        "name": "component_141",
+        "type": "double"
+      },
+      {
+        "name": "component_142",
+        "type": "double"
+      },
+      {
+        "name": "component_143",
+        "type": "double"
+      },
+      {
+        "name": "component_144",
+        "type": "double"
+      },
+      {
+        "name": "component_145",
+        "type": "double"
+      },
+      {
+        "name": "component_146",
+        "type": "double"
+      },
+      {
+        "name": "component_147",
+        "type": "double"
+      },
+      {
+        "name": "component_148",
+        "type": "double"
+      },
+      {
+        "name": "component_149",
+        "type": "double"
+      },
+      {
+        "name": "component_150",
+        "type": "double"
+      },
+      {
+        "name": "component_151",
+        "type": "double"
+      },
+      {
+        "name": "component_152",
+        "type": "double"
+      },
+      {
+        "name": "component_153",
+        "type": "double"
+      },
+      {
+        "name": "component_154",
+        "type": "double"
+      },
+      {
+        "name": "component_155",
+        "type": "double"
+      },
+      {
+        "name": "component_156",
+        "type": "double"
+      },
+      {
+        "name": "component_157",
+        "type": "double"
+      },
+      {
+        "name": "component_158",
+        "type": "double"
+      },
+      {
+        "name": "component_159",
+        "type": "double"
+      },
+      {
+        "name": "component_160",
+        "type": "double"
+      },
+      {
+        "name": "component_161",
+        "type": "double"
+      },
+      {
+        "name": "component_162",
+        "type": "double"
+      },
+      {
+        "name": "component_163",
+        "type": "double"
+      },
+      {
+        "name": "component_164",
+        "type": "double"
+      },
+      {
+        "name": "component_165",
+        "type": "double"
+      },
+      {
+        "name": "component_166",
+        "type": "double"
+      },
+      {
+        "name": "component_167",
+        "type": "double"
+      },
+      {
+        "name": "component_168",
+        "type": "double"
+      },
+      {
+        "name": "component_169",
+        "type": "double"
+      },
+      {
+        "name": "component_170",
+        "type": "double"
+      },
+      {
+        "name": "component_171",
+        "type": "double"
+      },
+      {
+        "name": "component_172",
+        "type": "double"
+      },
+      {
+        "name": "component_173",
+        "type": "double"
+      },
+      {
+        "name": "component_174",
+        "type": "double"
+      },
+      {
+        "name": "component_175",
+        "type": "double"
+      },
+      {
+        "name": "component_176",
+        "type": "double"
+      },
+      {
+        "name": "component_177",
+        "type": "double"
+      },
+      {
+        "name": "component_178",
+        "type": "double"
+      },
+      {
+        "name": "component_179",
+        "type": "double"
+      },
+      {
+        "name": "component_180",
+        "type": "double"
+      },
+      {
+        "name": "component_181",
+        "type": "double"
+      },
+      {
+        "name": "component_182",
+        "type": "double"
+      },
+      {
+        "name": "component_183",
+        "type": "double"
+      },
+      {
+        "name": "component_184",
+        "type": "double"
+      },
+      {
+        "name": "component_185",
+        "type": "double"
+      },
+      {
+        "name": "component_186",
+        "type": "double"
+      },
+      {
+        "name": "component_187",
+        "type": "double"
+      },
+      {
+        "name": "component_188",
+        "type": "double"
+      },
+      {
+        "name": "component_189",
+        "type": "double"
+      },
+      {
+        "name": "component_190",
+        "type": "double"
+      },
+      {
+        "name": "component_191",
+        "type": "double"
+      },
+      {
+        "name": "component_192",
+        "type": "double"
+      },
+      {
+        "name": "component_193",
+        "type": "double"
+      },
+      {
+        "name": "component_194",
+        "type": "double"
+      },
+      {
+        "name": "component_195",
+        "type": "double"
+      },
+      {
+        "name": "component_196",
+        "type": "double"
+      },
+      {
+        "name": "component_197",
+        "type": "double"
+      },
+      {
+        "name": "component_198",
+        "type": "double"
+      },
+      {
+        "name": "component_199",
+        "type": "double"
+      },
+      {
+        "name": "component_200",
+        "type": "double"
+      },
+      {
+        "name": "component_201",
+        "type": "double"
+      },
+      {
+        "name": "component_202",
+        "type": "double"
+      },
+      {
+        "name": "component_203",
+        "type": "double"
+      },
+      {
+        "name": "component_204",
+        "type": "double"
+      },
+      {
+        "name": "component_205",
+        "type": "double"
+      },
+      {
+        "name": "component_206",
+        "type": "double"
+      },
+      {
+        "name": "component_207",
+        "type": "double"
+      },
+      {
+        "name": "component_208",
+        "type": "double"
+      },
+      {
+        "name": "component_209",
+        "type": "double"
+      },
+      {
+        "name": "component_210",
+        "type": "double"
+      },
+      {
+        "name": "component_211",
+        "type": "double"
+      },
+      {
+        "name": "component_212",
+        "type": "double"
+      },
+      {
+        "name": "component_213",
+        "type": "double"
+      },
+      {
+        "name": "component_214",
+        "type": "double"
+      },
+      {
+        "name": "component_215",
+        "type": "double"
+      },
+      {
+        "name": "component_216",
+        "type": "double"
+      },
+      {
+        "name": "component_217",
+        "type": "double"
+      },
+      {
+        "name": "component_218",
+        "type": "double"
+      },
+      {
+        "name": "component_219",
+        "type": "double"
+      },
+      {
+        "name": "component_220",
+        "type": "double"
+      },
+      {
+        "name": "component_221",
+        "type": "double"
+      },
+      {
+        "name": "component_222",
+        "type": "double"
+      },
+      {
+        "name": "component_223",
+        "type": "double"
+      },
+      {
+        "name": "component_224",
+        "type": "double"
+      },
+      {
+        "name": "component_225",
+        "type": "double"
+      },
+      {
+        "name": "component_226",
+        "type": "double"
+      },
+      {
+        "name": "component_227",
+        "type": "double"
+      },
+      {
+        "name": "component_228",
+        "type": "double"
+      },
+      {
+        "name": "component_229",
+        "type": "double"
+      },
+      {
+        "name": "component_230",
+        "type": "double"
+      },
+      {
+        "name": "component_231",
+        "type": "double"
+      },
+      {
+        "name": "component_232",
+        "type": "double"
+      },
+      {
+        "name": "component_233",
+        "type": "double"
+      },
+      {
+        "name": "component_234",
+        "type": "double"
+      },
+      {
+        "name": "component_235",
+        "type": "double"
+      },
+      {
+        "name": "component_236",
+        "type": "double"
+      },
+      {
+        "name": "component_237",
+        "type": "double"
+      },
+      {
+        "name": "component_238",
+        "type": "double"
+      },
+      {
+        "name": "component_239",
+        "type": "double"
+      },
+      {
+        "name": "component_240",
+        "type": "double"
+      },
+      {
+        "name": "component_241",
+        "type": "double"
+      },
+      {
+        "name": "component_242",
+        "type": "double"
+      },
+      {
+        "name": "component_243",
+        "type": "double"
+      },
+      {
+        "name": "component_244",
+        "type": "double"
+      },
+      {
+        "name": "component_245",
+        "type": "double"
+      },
+      {
+        "name": "component_246",
+        "type": "double"
+      },
+      {
+        "name": "component_247",
+        "type": "double"
+      },
+      {
+        "name": "component_248",
+        "type": "double"
+      },
+      {
+        "name": "component_249",
+        "type": "double"
+      },
+      {
+        "name": "component_250",
+        "type": "double"
+      },
+      {
+        "name": "component_251",
+        "type": "double"
+      },
+      {
+        "name": "component_252",
+        "type": "double"
+      },
+      {
+        "name": "component_253",
+        "type": "double"
+      },
+      {
+        "name": "component_254",
+        "type": "double"
+      },
+      {
+        "name": "component_255",
+        "type": "double"
+      },
+      {
+        "name": "component_256",
+        "type": "double"
+      },
+      {
+        "name": "component_257",
+        "type": "double"
+      },
+      {
+        "name": "component_258",
+        "type": "double"
+      },
+      {
+        "name": "component_259",
+        "type": "double"
+      },
+      {
+        "name": "component_260",
+        "type": "double"
+      },
+      {
+        "name": "component_261",
+        "type": "double"
+      },
+      {
+        "name": "component_262",
+        "type": "double"
+      },
+      {
+        "name": "component_263",
+        "type": "double"
+      },
+      {
+        "name": "component_264",
+        "type": "double"
+      },
+      {
+        "name": "component_265",
+        "type": "double"
+      },
+      {
+        "name": "component_266",
+        "type": "double"
+      },
+      {
+        "name": "component_267",
+        "type": "double"
+      },
+      {
+        "name": "component_268",
+        "type": "double"
+      },
+      {
+        "name": "component_269",
+        "type": "double"
+      },
+      {
+        "name": "component_270",
+        "type": "double"
+      },
+      {
+        "name": "component_271",
+        "type": "double"
+      },
+      {
+        "name": "component_272",
+        "type": "double"
+      },
+      {
+        "name": "component_273",
+        "type": "double"
+      },
+      {
+        "name": "component_274",
+        "type": "double"
+      },
+      {
+        "name": "component_275",
+        "type": "double"
+      },
+      {
+        "name": "component_276",
+        "type": "double"
+      },
+      {
+        "name": "component_277",
+        "type": "double"
+      },
+      {
+        "name": "component_278",
+        "type": "double"
+      },
+      {
+        "name": "component_279",
+        "type": "double"
+      },
+      {
+        "name": "component_280",
+        "type": "double"
+      },
+      {
+        "name": "component_281",
+        "type": "double"
+      },
+      {
+        "name": "component_282",
+        "type": "double"
+      },
+      {
+        "name": "component_283",
+        "type": "double"
+      },
+      {
+        "name": "component_284",
+        "type": "double"
+      },
+      {
+        "name": "component_285",
+        "type": "double"
+      },
+      {
+        "name": "component_286",
+        "type": "double"
+      },
+      {
+        "name": "component_287",
+        "type": "double"
+      },
+      {
+        "name": "component_288",
+        "type": "double"
+      },
+      {
+        "name": "component_289",
+        "type": "double"
+      },
+      {
+        "name": "component_290",
+        "type": "double"
+      },
+      {
+        "name": "component_291",
+        "type": "double"
+      },
+      {
+        "name": "component_292",
+        "type": "double"
+      },
+      {
+        "name": "component_293",
+        "type": "double"
+      },
+      {
+        "name": "component_294",
+        "type": "double"
+      },
+      {
+        "name": "component_295",
+        "type": "double"
+      },
+      {
+        "name": "component_296",
+        "type": "double"
+      },
+      {
+        "name": "component_297",
+        "type": "double"
+      },
+      {
+        "name": "component_298",
+        "type": "double"
+      },
+      {
+        "name": "component_299",
+        "type": "double"
+      },
+      {
+        "name": "cluster_labels",
+        "type": "string"
+      }
+    ],
+    "userModified": true
+  },
+  "metrics": {
+    "probes": [
+      {
+        "type": "partitioning",
+        "enabled": true,
+        "computeOnBuildMode": "WHOLE_DATASET",
+        "meta": {
+          "name": "Partitioning statistics",
+          "level": 1
+        },
+        "configuration": {}
+      },
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}
