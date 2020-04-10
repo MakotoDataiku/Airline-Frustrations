@@ -23,7 +23,7 @@ for company in companies:
     columns_to_drop = ["product_id", "noun_lemmatized", "k_means_clusters", "count"]
     X = df_sub.drop(columns_to_drop, axis =1)
     Y = df_sub[columns_to_drop]
-
+    print(X)
     ss = StandardScaler().fit(X)
 
     X_std = ss.transform(X)
