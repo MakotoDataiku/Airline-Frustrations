@@ -23,10 +23,8 @@
           "ref": "tweets_noURL",
           "deps": [
             {
-              "out": "aspect_sentiment_pairs",
               "idim": "company",
-              "odim": "company",
-              "func": "equals",
+              "func": "all_available",
               "params": {}
             }
           ]
@@ -45,11 +43,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 34,
+    "versionNumber": 35,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586535538577
+    "lastModifiedOn": 1586537197153
   },
   "creationTag": {
     "versionNumber": 0,
