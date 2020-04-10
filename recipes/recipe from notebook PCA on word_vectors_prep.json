@@ -25,7 +25,7 @@
             {
               "out": "word_vectors_PCA",
               "idim": "product_id",
-              "odim": "company",
+              "odim": "product_id",
               "func": "equals",
               "params": {}
             }
@@ -45,11 +45,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 21,
+    "versionNumber": 22,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586551024645
+    "lastModifiedOn": 1586551078006
   },
   "creationTag": {
     "versionNumber": 0,

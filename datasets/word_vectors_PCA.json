@@ -58,17 +58,17 @@
     "considerMissingRequestedPartitionsAsEmpty": false,
     "dimensions": [
       {
-        "name": "company",
+        "name": "product_id",
         "type": "value"
       }
     ]
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586551037555
+    "lastModifiedOn": 1586551078000
   },
   "creationTag": {
     "versionNumber": 0,
@@ -123,7 +123,7 @@
         "type": "string"
       }
     ],
-    "userModified": false
+    "userModified": true
   },
   "metrics": {
     "probes": [

@@ -14,8 +14,10 @@
           "ref": "word_vectors_PCA",
           "deps": [
             {
-              "idim": "company",
-              "func": "all_available",
+              "out": "testA",
+              "idim": "product_id",
+              "odim": "product_id",
+              "func": "equals",
               "params": {}
             }
           ]
@@ -38,11 +40,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586550330311
+    "lastModifiedOn": 1586551078004
   },
   "creationTag": {
     "versionNumber": 0,
