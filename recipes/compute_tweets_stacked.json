@@ -17,7 +17,10 @@
               "out": "tweets_stacked",
               "idim": "company",
               "func": "values",
-              "params": {}
+              "params": {},
+              "values": [
+                "Air France"
+              ]
             }
           ]
         },
@@ -28,7 +31,10 @@
               "out": "tweets_stacked",
               "idim": "company",
               "func": "values",
-              "params": {}
+              "params": {},
+              "values": [
+                "Air France"
+              ]
             }
           ]
         }
@@ -46,11 +52,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586533989595
+    "lastModifiedOn": 1586534020496
   },
   "creationTag": {
     "versionNumber": 0,
