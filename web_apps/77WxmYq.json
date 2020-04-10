@@ -2,6 +2,8 @@
   "type": "STANDARD",
   "hasLegacyBackendURL": false,
   "params": {
+    "html": "\u003c!-- Body of your app --\u003e",
+    "css": "body {\n}",
     "backendEnabled": false,
     "enableJavascriptModules": false,
     "autoStartBackend": false,
@@ -25,7 +27,7 @@
   },
   "config": {},
   "name": "Analysis of customer frustrations",
-  "apiKey": "f1muBqhEZVq4ERbhwOUwl6CaG1C8olrR",
+  "apiKey": "m3SyyYUOIEJHKp3bjmVRsSnmneSa6Kru",
   "versionTag": {
     "versionNumber": 0,
     "lastModifiedBy": {

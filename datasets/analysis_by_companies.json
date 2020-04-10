@@ -75,7 +75,7 @@
   "tags": [],
   "params": {
     "connection": "filesystem_managed",
-    "path": "${projectKey}/analysis_by_companies",
+    "path": "/AIRLINEFRUSTRATIONS.analysis_by_companies",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",

@@ -135,7 +135,6 @@
     }
   },
   "name": "Analysis of Customer Frustrations in Airline Industries",
-  "projectStatus": "Sandbox",
   "imgPattern": 3,
   "showInitials": false,
   "metrics": {
@@ -193,11 +192,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586522135229
+    "lastModifiedOn": 1586533247912
   },
   "creationTag": {
     "versionNumber": 0,
@@ -208,7 +207,9 @@
   },
   "description": "### Main references\n\nmodel github: https://github.com/ishikaarora/Aspect-Sentiment-Analysis-on-Amazon-Reviews\n\nhttps://achyutjoshi.github.io/aspect_extraction/datacollection\n\nsample dataset: http://deepyeti.ucsd.edu/jianmo/amazon/index.html\n\nhttps://s3.amazonaws.com/amazon-reviews-pds/readme.html\n\nhttps://blog.aylien.com/understanding-customer-frustrations-in-the-airline-industry-with-aspect-based-sentiment-analysis/\n\n### Other references\nhttps://www.youtube.com/watch?v\u003dksfcodFeVHg\nhttps://github.com/AkshitaJha/IRE/blob/master/ABSA_IRE.pdf\n\nhttps://www.youtube.com/watch?v\u003ds2KT4-zuPwU\nhttps://github.com/SaujanyaReddy/Aspect-Based-Sentiment-Analysis-IRE-Major-Project/blob/master/Report(2).pdf",
   "shortDesc": "The project *Analysis of Customer Frustrations in Airline Industries* was created by Makoto Miyazaki on Mar 06th 2020",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
