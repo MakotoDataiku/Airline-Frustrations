@@ -74,8 +74,3 @@ for company in companies_list:
 # Recipe outputs
 tweets = dataiku.Dataset("tweets")
 tweets.write_with_schema(df_big)
-
-# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-# Recipe outputs
-tweets = dataiku.Dataset("tweets")
-tweets.write_with_schema(pandas_dataframe)
