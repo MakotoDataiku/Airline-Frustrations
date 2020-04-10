@@ -55,8 +55,10 @@
           "ref": "word_vectors",
           "deps": [
             {
+              "out": "word_vectors_prep",
               "idim": "company",
-              "func": "all_available",
+              "odim": "company",
+              "func": "equals",
               "params": {}
             }
           ]
@@ -75,11 +77,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586535758781
+    "lastModifiedOn": 1586536311127
   },
   "creationTag": {
     "versionNumber": 0,
