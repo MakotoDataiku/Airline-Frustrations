@@ -21,7 +21,13 @@
       "items": [
         {
           "ref": "aspect_sentiment_pairs",
-          "deps": []
+          "deps": [
+            {
+              "idim": "company",
+              "func": "all_available",
+              "params": {}
+            }
+          ]
         }
       ]
     }
@@ -41,11 +47,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 33,
+    "versionNumber": 34,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586518188862
+    "lastModifiedOn": 1586535492971
   },
   "creationTag": {
     "versionNumber": 0,
