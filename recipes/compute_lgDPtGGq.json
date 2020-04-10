@@ -23,7 +23,9 @@
           "ref": "tweets_noURL",
           "deps": [
             {
+              "out": "aspect_sentiment_pairs",
               "idim": "company",
+              "odim": "company",
               "func": "equals",
               "params": {}
             }
@@ -36,10 +38,6 @@
     "main": {
       "items": [
         {
-          "ref": "lgDPtGGq",
-          "appendMode": false
-        },
-        {
           "ref": "aspect_sentiment_pairs",
           "appendMode": false
         }
@@ -47,11 +45,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 32,
+    "versionNumber": 33,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586535513247
+    "lastModifiedOn": 1586535535612
   },
   "creationTag": {
     "versionNumber": 0,
