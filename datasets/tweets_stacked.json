@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586533808830
+    "lastModifiedOn": 1586533958601
   },
   "creationTag": {
     "versionNumber": 0,
@@ -173,10 +173,6 @@
       {
         "name": "video_url",
         "type": "string"
-      },
-      {
-        "name": "timestamp_parsed",
-        "type": "date"
       }
     ],
     "userModified": true
