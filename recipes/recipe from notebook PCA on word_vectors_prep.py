@@ -23,9 +23,9 @@ for company in companies:
     columns_to_drop = ["product_id", "noun_lemmatized", "k_means_clusters", "count"]
     X = df_sub.drop(columns_to_drop, axis =1)
     Y = df_sub[columns_to_drop]
-    print("ok for now")
 
     ss = StandardScaler().fit(X)
+    print("ok for now")
     X_std = ss.transform(X)
     pca = PCA(n_components=2)
     result = pca.fit_transform(X_std)
