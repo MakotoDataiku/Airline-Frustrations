@@ -64,11 +64,11 @@
     ]
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586535758775
+    "lastModifiedOn": 1586535920676
   },
   "creationTag": {
     "versionNumber": 0,
@@ -1309,9 +1309,13 @@
       {
         "name": "k_means_clusters",
         "type": "int"
+      },
+      {
+        "name": "company",
+        "type": "string"
       }
     ],
-    "userModified": true
+    "userModified": false
   },
   "metrics": {
     "probes": [
