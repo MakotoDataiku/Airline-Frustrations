@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore",category=DeprecationWarning)
 from sklearn.preprocessing import StandardScaler
 
 
-mydataset = dataiku.Dataset("word_vectors_prep")
+mydataset = dataiku.Dataset("word_vectors_prep_clustered")
 df = mydataset.get_dataframe()
 
 companies = df.product_id.unique()
