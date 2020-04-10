@@ -64,11 +64,11 @@
     ]
   },
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586550004554
+    "lastModifiedOn": 1586550062357
   },
   "creationTag": {
     "versionNumber": 0,
@@ -96,46 +96,34 @@
     "columns": [
       {
         "name": "product_id",
-        "type": "string",
-        "originalType": "text"
+        "type": "string"
       },
       {
         "name": "review_id",
-        "type": "string",
-        "originalType": "text"
+        "type": "string"
       },
       {
         "name": "noun",
-        "type": "string",
-        "originalType": "text"
+        "type": "string"
       },
       {
         "name": "adj",
-        "type": "string",
-        "originalType": "text"
+        "type": "string"
       },
       {
         "name": "rule",
-        "type": "string",
-        "originalType": "text"
+        "type": "string"
       },
       {
         "name": "polarity_nltk",
-        "type": "double",
-        "originalType": "float8"
+        "type": "double"
       },
       {
         "name": "polarity_textblob",
-        "type": "double",
-        "originalType": "float8"
-      },
-      {
-        "name": "company",
-        "type": "string",
-        "originalType": "text"
+        "type": "double"
       }
     ],
-    "userModified": true
+    "userModified": false
   },
   "metrics": {
     "probes": [
