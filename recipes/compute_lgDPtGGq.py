@@ -126,4 +126,4 @@ for dic in aspect_list:
     tweet_processed = tweet_processed.append(new_row, ignore_index = True)
     
 py_recipe_output = dataiku.Dataset("aspect_sentiment_pairs")
-py_recipe_output.write_with_schema(tweet_processed)
+py_recipe_output.write_from_dataframe(tweet_processed)
