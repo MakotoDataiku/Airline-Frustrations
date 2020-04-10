@@ -11,12 +11,26 @@
     "main": {
       "items": [
         {
-          "ref": "tweets_new",
-          "deps": []
+          "ref": "tweets_1_copy",
+          "deps": [
+            {
+              "out": "tweets_stacked",
+              "idim": "company",
+              "func": "values",
+              "params": {}
+            }
+          ]
         },
         {
-          "ref": "tweets_1",
-          "deps": []
+          "ref": "tweets_new_prepared",
+          "deps": [
+            {
+              "out": "tweets_stacked",
+              "idim": "company",
+              "func": "values",
+              "params": {}
+            }
+          ]
         }
       ]
     }
@@ -32,11 +46,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586533634554
+    "lastModifiedOn": 1586533808880
   },
   "creationTag": {
     "versionNumber": 0,

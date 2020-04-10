@@ -22,7 +22,8 @@
     "tweet_url",
     "user_id",
     "username",
-    "video_url"
+    "video_url",
+    "timestamp_parsed"
   ],
   "originColumnName": "original_dataset",
   "engineParams": {
@@ -62,12 +63,12 @@
   "virtualInputs": [
     {
       "preFilter": {},
-      "originLabel": "tweets_new",
+      "originLabel": "tweets_1_copy",
       "index": 0
     },
     {
       "preFilter": {},
-      "originLabel": "tweets_1",
+      "originLabel": "tweets_new_prepared",
       "index": 1
     }
   ],
@@ -162,6 +163,10 @@
           {
             "name": "video_url",
             "type": "string"
+          },
+          {
+            "name": "timestamp_parsed",
+            "type": "date"
           }
         ],
         "userModified": false
