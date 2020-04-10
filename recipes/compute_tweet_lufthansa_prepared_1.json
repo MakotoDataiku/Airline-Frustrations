@@ -61,8 +61,10 @@
           "ref": "tweets_stacked",
           "deps": [
             {
+              "out": "tweets_prep",
               "idim": "company",
-              "func": "all_available",
+              "odim": "company",
+              "func": "equals",
               "params": {}
             }
           ]
@@ -81,11 +83,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586534650859
+    "lastModifiedOn": 1586534722490
   },
   "creationTag": {
     "versionNumber": 0,
