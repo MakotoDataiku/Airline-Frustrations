@@ -20,7 +20,7 @@ for company in companies:
     df_sub = df[df.product_id == company]
     print(df_sub.shape)
     # print(df_sub.noun_lemmatized)
-    columns_to_drop = ["product_id", "noun_lemmatized", "k_means_clusters", "count", "company"]
+    columns_to_drop = ["product_id", "noun_lemmatized", "k_means_clusters", "count"]
     X = df_sub.drop(columns_to_drop, axis =1)
     Y = df_sub[columns_to_drop]
 
