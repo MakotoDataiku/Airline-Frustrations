@@ -27,7 +27,14 @@
               "idim": "company",
               "odim": "company",
               "func": "equals",
-              "params": {}
+              "params": {
+                "fromMode": "RELATIVE_OFFSET",
+                "fromGranularity": "DAY",
+                "fromOffset": "0",
+                "toGranularity": "DAY",
+                "toOffset": "0",
+                "code": "def get_dependencies(target_partition_id):\n    return [target_partition_id]"
+              }
             }
           ]
         }
@@ -49,11 +56,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586536027196
+    "lastModifiedOn": 1586536174028
   },
   "creationTag": {
     "versionNumber": 0,
