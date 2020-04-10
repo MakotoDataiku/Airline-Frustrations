@@ -64,11 +64,11 @@
     ]
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586537096751
+    "lastModifiedOn": 1586551037555
   },
   "creationTag": {
     "versionNumber": 0,
@@ -111,16 +111,16 @@
         "type": "bigint"
       },
       {
-        "name": "company",
-        "type": "string"
-      },
-      {
         "name": "PC_1",
         "type": "double"
       },
       {
         "name": "PC_2",
         "type": "double"
+      },
+      {
+        "name": "company",
+        "type": "string"
       }
     ],
     "userModified": false
