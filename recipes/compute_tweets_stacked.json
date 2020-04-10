@@ -14,7 +14,6 @@
           "ref": "tweets_new_prepared",
           "deps": [
             {
-              "out": "tweets_stacked",
               "idim": "company",
               "func": "values",
               "params": {},
@@ -28,7 +27,6 @@
           "ref": "tweets_prepared",
           "deps": [
             {
-              "out": "tweets_stacked",
               "idim": "company",
               "func": "values",
               "params": {},
@@ -52,11 +50,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 19,
+    "versionNumber": 20,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586534588699
+    "lastModifiedOn": 1586534650861
   },
   "creationTag": {
     "versionNumber": 0,
