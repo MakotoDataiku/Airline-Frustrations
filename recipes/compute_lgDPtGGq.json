@@ -21,7 +21,13 @@
       "items": [
         {
           "ref": "tweets_noURL",
-          "deps": []
+          "deps": [
+            {
+              "idim": "company",
+              "func": "all_available",
+              "params": {}
+            }
+          ]
         }
       ]
     }
@@ -41,11 +47,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 29,
+    "versionNumber": 30,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586365031713
+    "lastModifiedOn": 1586535424581
   },
   "creationTag": {
     "versionNumber": 0,
