@@ -1,5 +1,5 @@
 {
-  "mode": "UNION",
+  "mode": "INTERSECT",
   "selectedColumns": [
     "company",
     "has_media",
@@ -22,8 +22,7 @@
     "tweet_url",
     "user_id",
     "username",
-    "video_url",
-    "timestamp_parsed"
+    "video_url"
   ],
   "originColumnName": "original_dataset",
   "engineParams": {
@@ -163,10 +162,6 @@
           {
             "name": "video_url",
             "type": "string"
-          },
-          {
-            "name": "timestamp_parsed",
-            "type": "date"
           }
         ],
         "userModified": false
